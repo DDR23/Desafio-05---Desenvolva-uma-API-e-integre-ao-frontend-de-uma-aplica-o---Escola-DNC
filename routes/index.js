@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const fs = require('fs');
+const path = require('path');
 
 /**
  * @swagger
@@ -13,12 +13,7 @@ const fs = require('fs');
  */
 
 router.get('/', (req, res) => {
-  try {
-    const index = fs.readFileSync('public/index.html', 'utf8');
-    res.send(index);
-  } catch (error) {
-    console.log(error);
-  }
+  res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
 
 module.exports = router;
