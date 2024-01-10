@@ -5,12 +5,12 @@ app.use(express.json());
 
 
 //OPTIONAL
-const path = require('path');
 const cors = require('cors');
 app.use(cors());
 
 
 //FAVICON
+const path = require('path');
 const favicon = require('serve-favicon');
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 

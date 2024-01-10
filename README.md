@@ -14,7 +14,7 @@
 ```
 
 ```bash
-  npm i express mongoose cors dotenv swagger-ui-express swagger-jsdoc @vercel/analytics
+  npm i express mongoose cors dotenv swagger-ui-express swagger-jsdoc
 ```
 
 ```bash
