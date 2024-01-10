@@ -6,7 +6,7 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'API Express',
+      title: 'API | atividade---board-task-backend---Escola-DNC',
       version: '1.0.0'
     }
   },
