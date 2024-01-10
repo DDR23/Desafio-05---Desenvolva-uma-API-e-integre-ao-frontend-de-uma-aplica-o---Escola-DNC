@@ -6,7 +6,7 @@ const booksModel = require('../models/books');
  * @swagger
  * /books:
  *  get:
- *    description: Retorna uma mensagem para a rota GET
+ *    description: rota "/books"
  *    responses:
  *      200:
  *        description: Sucesso

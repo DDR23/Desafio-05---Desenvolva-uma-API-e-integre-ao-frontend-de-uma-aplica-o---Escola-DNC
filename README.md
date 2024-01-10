@@ -17,3 +17,4 @@ foi desenvolvido ate agora:
 - conexão com o mongodb
 - modelo/schema
 - rotas: GET, POST, PUT, DELETE
+- index.html para rota /
