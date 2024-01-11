@@ -2,16 +2,6 @@ const express = require('express');
 const router = express.Router();
 const booksModel = require('../models/books');
 
-/**
- * @swagger
- * /books/update/:id:
- *  put:
- *    description: Retorna uma mensagem para a rota PUT
- *    responses:
- *      200:
- *        description: Sucesso
- */
-
 router.put('/update/:id', async (req, res) => {
   try {
     const book = await booksModel.findByIdAndUpdate(req.params.id, req.body, { new: true , runValidators: true });

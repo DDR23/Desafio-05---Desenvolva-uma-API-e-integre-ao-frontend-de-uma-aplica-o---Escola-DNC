@@ -19,12 +19,6 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 require('dotenv').config();
 
 
-//SWAGGER
-const setupSwagger = require('./swagger/swagger');
-setupSwagger(app);
-// app.get('/', (req, res) => {/* #swagger.ignore = true */ res.redirect('/doc');}); //caso seja necessário redirecionar a rota '/' para a documentação do swagger
-
-
 //DATABASE
 const conn = require('./database/conn');
 conn();
