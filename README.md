@@ -13,7 +13,7 @@
 ```
 
 ```bash
-  npm i express mongoose cors dotenv
+  npm i express mongoose cors dotenv serve-favicon
 ```
 
 ```bash
