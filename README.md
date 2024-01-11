@@ -3,8 +3,7 @@
 
 ### Essa é a estrutura básica de uma API escrita em javascript usando:
 
-- express.js 
-- swagger
+- express.js
 - mongodb
 
 ### Instalações iniciais
@@ -14,7 +13,7 @@
 ```
 
 ```bash
-  npm i express mongoose cors dotenv swagger-ui-express swagger-jsdoc
+  npm i express mongoose cors dotenv
 ```
 
 ```bash
