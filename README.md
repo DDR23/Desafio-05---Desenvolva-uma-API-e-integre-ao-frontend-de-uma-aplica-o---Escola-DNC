@@ -1,7 +1,7 @@
 ## IMPORTANTE
-Esse repositório foi criado e desenvolvido para o desafio 05 da escola DNC.
+Esse repositório foi criado e desenvolvido para o Backend do desafio 05 da escola DNC.
 
-Nesse README.dm é possivel encontrar informações dobre:
+Nesse README.dm é possivel encontrar informações sobre:
 - Etapas de desenvolvimento do Desafio
 - Instalações
 - Funcionalidades
@@ -70,7 +70,7 @@ comandos para iniciar um projeto do zero
 comandos para clonar esse projeto
 
 ```bash
-  git clone https://github.com/DDR23/atividade---board-task-backend---Escola-DNC
+  git clone https://github.com/DDR23/Desafio-05---BACKEND---Desenvolva-uma-API-e-integre-ao-frontend-de-uma-aplicacao---Escola-DNC
 ```
 ```bash
   npm i
@@ -105,7 +105,7 @@ DB_PASSWORD=
 &nbsp;
 **GET** - para todos os livros
 ```http
-https://atividade-board-task-backend-escola-dnc.vercel.app/books
+https://desafio05escoladnc.vercel.app/books
 ```
 
 &nbsp;
@@ -113,7 +113,7 @@ https://atividade-board-task-backend-escola-dnc.vercel.app/books
 &nbsp;
 **GET** - para um livros
 ```http
-https://atividade-board-task-backend-escola-dnc.vercel.app/books/6598d9aabc35c1831047e13f
+https://desafio05escoladnc.vercel.app/books/6598d9aabc35c1831047e13f
 ```
 &nbsp;
 Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
@@ -123,7 +123,7 @@ Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
 &nbsp;
 **POST** - para criar um livro
 ```http
-https://atividade-board-task-backend-escola-dnc.vercel.app/books/create
+https://desafio05escoladnc.vercel.app/books/create
 ```
 
 &nbsp;
@@ -145,7 +145,7 @@ Obs: Nesse objeto de chave/valor apenas o valor pode ser alterado
 &nbsp;
 **PUT** - para editar um livro
 ```http
-https://atividade-board-task-backend-escola-dnc.vercel.app/books/update/6598d9aabc35c1831047e13f
+https://desafio05escoladnc.vercel.app/books/update/6598d9aabc35c1831047e13f
 ```
 &nbsp;
 Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
@@ -161,6 +161,7 @@ Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
     "publisher": "ddr23"
   }
 ```
+
 &nbsp;
 Obs: Nesse objeto de chave/valor apenas o valor pode ser alterado, podendo passar apenas uma chave/valor
 
@@ -176,7 +177,7 @@ exemplo:
 
 **DELETE** - para deletar um livro
 ```http
-https://atividade-board-task-backend-escola-dnc.vercel.app/books/delete/6598d9aabc35c1831047e13f
+https://desafio05escoladnc.vercel.app/books/delete/6598d9aabc35c1831047e13f
 ```
 &nbsp;
 Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
