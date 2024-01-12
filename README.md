@@ -7,7 +7,7 @@ Nesse README.dm é possivel encontrar informações dobre:
 - Funcionalidades
 - Exemplos de uso
 
-#### URL da API: desafio05escoladnc.vercel.app/
+#### URL da API: https://desafio05escoladnc.vercel.app/
 #### URL da Aplicação Frontend:
 
 &nbsp;
