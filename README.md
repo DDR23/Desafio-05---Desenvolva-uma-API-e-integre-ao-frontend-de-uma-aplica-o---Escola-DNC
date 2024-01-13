@@ -7,8 +7,8 @@ Nesse README.dm é possivel encontrar informações sobre:
 - Funcionalidades
 - Exemplos de uso
 
-#### URL da API: https://desafio05escoladnc.vercel.app/
-#### URL da Aplicação Frontend:
+#### URL da API: https://api-desafio05escoladnc.vercel.app
+#### URL da Aplicação Frontend: https://desafio05escoladnc.vercel.app
 
 &nbsp;
 
@@ -105,7 +105,7 @@ DB_PASSWORD=
 &nbsp;
 **GET** - para todos os livros
 ```http
-https://desafio05escoladnc.vercel.app/books
+https://api-desafio05escoladnc.vercel.app/books
 ```
 
 &nbsp;
@@ -113,7 +113,7 @@ https://desafio05escoladnc.vercel.app/books
 &nbsp;
 **GET** - para um livros
 ```http
-https://desafio05escoladnc.vercel.app/books/6598d9aabc35c1831047e13f
+https://api-desafio05escoladnc.vercel.app/books/6598d9aabc35c1831047e13f
 ```
 &nbsp;
 Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
@@ -123,7 +123,7 @@ Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
 &nbsp;
 **POST** - para criar um livro
 ```http
-https://desafio05escoladnc.vercel.app/books/create
+https://api-desafio05escoladnc.vercel.app/books/create
 ```
 
 &nbsp;
@@ -145,7 +145,7 @@ Obs: Nesse objeto de chave/valor apenas o valor pode ser alterado
 &nbsp;
 **PUT** - para editar um livro
 ```http
-https://desafio05escoladnc.vercel.app/books/update/6598d9aabc35c1831047e13f
+https://api-desafio05escoladnc.vercel.app/books/update/6598d9aabc35c1831047e13f
 ```
 &nbsp;
 Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
@@ -177,7 +177,7 @@ exemplo:
 
 **DELETE** - para deletar um livro
 ```http
-https://desafio05escoladnc.vercel.app/books/delete/6598d9aabc35c1831047e13f
+https://api-desafio05escoladnc.vercel.app/books/delete/6598d9aabc35c1831047e13f
 ```
 &nbsp;
 Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
