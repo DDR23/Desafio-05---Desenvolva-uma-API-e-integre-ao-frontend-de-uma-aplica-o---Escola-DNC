@@ -22,6 +22,9 @@ const bookSchema = new mongoose.Schema(
     publisher: {
       type: String,
       required: 'Campo obrigatório!'
+    },
+    sumary: {
+      type: String,
     }
   },
   { 
