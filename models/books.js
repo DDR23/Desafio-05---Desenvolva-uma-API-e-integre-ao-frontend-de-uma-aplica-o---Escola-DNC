@@ -4,23 +4,24 @@ const bookSchema = new mongoose.Schema(
   {
     id: {
       type: Number,
-      required: 'Obrigatório!'
+      required: 'Campo obrigatório!',
+      unique: true
     },
     title: {
       type: String,
-      required: 'Obrigatório!'
+      required: 'Campo obrigatório!'
     },
     pages: {
       type: Number,
-      required: 'Obrigatório!'
+      required: 'Campo obrigatório!'
     },
     isbn: {
       type: Number,
-      required: 'Obrigatório!'
+      required: 'Campo obrigatório!'
     },
     publisher: {
       type: String,
-      required: 'Obrigatório!'
+      required: 'Campo obrigatório!'
     }
   },
   { 
