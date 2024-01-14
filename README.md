@@ -134,7 +134,8 @@ https://api-desafio05escoladnc.vercel.app/books/create
     "title": "Meu ultimo livro",
     "pages": "143",
     "isbn": "2938121",
-    "publisher": "ddr23"
+    "publisher": "ddr23",
+    "sumary": "Aqui nesse campo pode ser colocado uma descrição do conteúdo será visto no livro"
   }
 ```
 &nbsp;
@@ -158,7 +159,8 @@ Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
     "title": "Meu ultimo livro",
     "pages": "143",
     "isbn": "2938121",
-    "publisher": "ddr23"
+    "publisher": "ddr23",
+    "sumary": "Aqui nesse campo pode ser colocado uma descrição do conteúdo será visto no livro"
   }
 ```
 
