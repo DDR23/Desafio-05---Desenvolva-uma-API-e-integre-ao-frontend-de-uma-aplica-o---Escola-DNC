@@ -8,6 +8,9 @@ router.post('/create', async (req, res) => {
     await book.save();
     res.status(201).send(book)
   } catch (error) {
+    if (error.code === 11000){
+      return res.status(409).send('Id já existente')
+    }
     res.status(400).send(error)
   }
 });
