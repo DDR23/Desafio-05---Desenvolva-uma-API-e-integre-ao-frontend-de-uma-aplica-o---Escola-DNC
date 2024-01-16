@@ -30,7 +30,7 @@ routes(app);
 
 
 //GATEWAY
-if(process.env.NODE_ENV !== 'test'){
+if(process.env.NODE_ENV !== 'localhost'){
   const PORT = process.env.PORT || 8080;
   app.listen(PORT, () => {
     console.log(`servidor online na porta ${PORT}`) 
