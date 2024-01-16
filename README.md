@@ -75,10 +75,6 @@ comandos para clonar esse projeto
 ```bash
   npm i
 ```
-```bash
-  npm i -D nodemon
-```
-&nbsp;
 
 &nbsp;
 Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
@@ -183,3 +179,8 @@ https://api-desafio05escoladnc.vercel.app/books/delete/6598d9aabc35c1831047e13f
 ```
 &nbsp;
 Obs: lembre-se se subistituir o id "6598d9aabc35c1831047e13f" por um id valido
+
+&nbsp;
+
+&nbsp;
+Obs: O id que deve ser passado por parametro nas rotas "/book/:id", "/books/update/:id" e "/books/delete/:id" deve ser o ID gerado automaticamente pelo mongo, identificado como "_id" no body da requisição e deve ser algo similar a "6598d9aabc35c1831047e13f" por exemplo
