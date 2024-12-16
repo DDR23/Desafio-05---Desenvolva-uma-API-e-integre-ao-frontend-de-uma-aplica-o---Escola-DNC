@@ -1,7 +1,7 @@
 ## IMPORTANTE
-Esse repositório foi criado e desenvolvido para o Backend do desafio 05 da escola DNC.
+Esse repositório é o backend do desafio 05. Desafio que consiste em um sistema simples de registro, edição e consulta de livros
 
-Nesse README.dm é possivel encontrar informações sobre:
+Nesse `README.dm` é possivel encontrar informações sobre:
 - Etapas de desenvolvimento do Desafio
 - Instalações
 - Funcionalidades
