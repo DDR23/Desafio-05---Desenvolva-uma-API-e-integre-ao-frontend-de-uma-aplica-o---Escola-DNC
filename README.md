@@ -7,8 +7,8 @@ Nesse `README.dm` é possivel encontrar informações sobre:
 - Funcionalidades
 - Exemplos de uso
 
-#### URL da API:
-#### URL da Aplicação Frontend:
+#### URL da API: https://api-desafio05escoladnc.vercel.app/
+#### URL da Aplicação Frontend: https://desafio05escoladnc.vercel.app/
 
 &nbsp;
 
